@@ -1,0 +1,22 @@
+.site-breadcrumb {
+  position: relative;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  padding-top: 140px;
+  padding-bottom: 50px;
+  z-index: 1;
+  margin-top: -100px;
+}
+
+.site-breadcrumb-bg {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center !important;
+  background-size: cover !important;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
