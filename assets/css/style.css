@@ -93,7 +93,7 @@ Table of contents
   --body-font: 'Roboto', sans-serif;
   --heading-font: 'Inter', sans-serif;
   --theme-color: #03A297; 
-  --theme-color: #01b3ee;
+  --theme-color: #005500;
   /* --theme-color2: #023350; */
   --theme-color-light: rgba(3, 162, 151, .08);
   --theme-bg-light: #F5F7FA;
@@ -4482,7 +4482,7 @@ label {
 
 .item-tab .nav-link.active {
   color: var(--color-white);
-  background: var(--theme-color2);
+  background: var(--theme-color);
 }
 
 @media all and (max-width: 767px) {
