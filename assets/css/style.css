@@ -788,8 +788,6 @@ label {
   color: var(--color-white);
 }
 
-
-
 /*====================
 9. Scroll top css
 ======================*/
@@ -5514,7 +5512,10 @@ label {
 
 .testimonial-rate {
   color: var(--theme-color);
+  line-height: 50px;
   margin-top: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid var(--border-info-color);
 }
 
 .testimonial-slider .owl-dots {
@@ -8376,6 +8377,7 @@ label {
 
 .choose-area {
   position: relative;
+  width: 100%;
 }
 
 .choose-img img {
