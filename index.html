@@ -117,7 +117,14 @@
                     <a class="navbar-brand" href="index.html">
                         <img src="assets/img/logo/medicine_logo.png" alt="logo">
                     </a>
-                    <div class="mobile-menu-right">
+                    <form action="#" class="navbar-search-form">
+                        <div class="search-input-group">
+                            <input type="text" class="form-control" name="key" placeholder="Search Anything Here...">
+                            <button type="submit" class="theme-btn theme-btn2"><span class="d-none d-lg-inline">Search
+                                </span><span class="far fa-search"></span></button>
+                        </div>
+                    </form>
+                    <!--<div class="mobile-menu-right">
                         <div class="mobile-menu-btn">
                             <a href="#" class="nav-right-link search-box-outer"><i class="far fa-search"></i></a>
 
@@ -131,177 +138,79 @@
                             <span></span>
                             <span></span>
                         </button>
-                    </div>
+                    </div>-->
                     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
                         aria-labelledby="offcanvasNavbarLabel">
                         <div class="offcanvas-header">
-                            <a href="index-2.html" class="offcanvas-brand" id="offcanvasNavbarLabel">
-                                <img src="assets/img/logo/logo.png" alt="">
+                            <a href="index.html" class="offcanvas-brand" id="offcanvasNavbarLabel">
+                                <img src="assets/img/logo/medicine_logo.png" alt="">
                             </a>
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
                         </div>
-                        <div class="offcanvas-body">
-                            <ul class="navbar-nav justify-content-center flex-grow-1">
-                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                                <li class="nav-item dropdown slide-category">
-                                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">All
-                                        Categories</a>
-                                    <ul class="dropdown-menu fade-down main-category">
-                                        <li><a class="dropdown-item" href="index.html"><img
-                                                    src="assets/img/icon/medicine.svg" alt="">
-                                                <span>Medicine</span><i class="far fa-angle-right"></i></a>
-                                            <div class="sub-category-mega">
-                                                <div class="row">
-                                                    <div class="col-lg-4">
-                                                        <div class="category-single">
-                                                            <h6 class="category-title-text">Medicine</h6>
-                                                            <div class="category-link">
-                                                                <a href="#">Mother Tincture</a>
-                                                                <a href="#">Dilution</a>
-                                                                <a href="#">Biochemic</a>
-                                                                <a href="#">Trituation</a>
-                                                                <a href="#">Bioplusgen</a>
-                                                                <a href="#">Pentarkan</a>
-                                                                <a href="#">Specialities</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4">
-                                                        <div class="category-single">
-                                                            <h6 class="category-title-text">Medicine</h6>
-                                                            <div class="category-link">
-                                                                <a href="#">Mother Combination</a>
-                                                                <a href="#">Regular Potencies</a>
-                                                                <a href="#">Regular Biochemic</a>
-                                                                <a href="#">Biochemic Sealed Pack</a>
-                                                                <a href="#">Oral Drop</a>
-                                                                <a href="#">Tablet & Syrup</a>
-                                                                <a href="#">Ointment</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-lg-4">
-                                                        <div class="category-img">
-                                                            <a href="#"><img src="assets/img/banner/category-banner.jpg"
-                                                                    alt=""></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-
-                                        <li><a class="dropdown-item" href="#"><img src="assets/img/icon/health-care.svg"
-                                                    alt=""><span>Skin Care</span></a></a></li>
-
-                                        <li><a class="dropdown-item" href="#"><img src="assets/img/icon/beauty-care.svg"
-                                                    alt=""><span>Heart Care</span></a></li>
-                                        <li><a class="dropdown-item" href="#"><img src="assets/img/icon/sexual.svg"
-                                                    alt=""><span>Child Care</span></a></li>
-                                        <li><a class="dropdown-item" href="#"><img src="assets/img/icon/fitness.svg"
-                                                    alt=""><span>Orthopedic</span></a></li>
-                                        <li><a class="dropdown-item" href="#"><img src="assets/img/icon/lab-test.svg"
-                                                    alt=""><span>Respiratory</span></a></li>
-                                        <li><a class="dropdown-item" href="#"><img
-                                                    src="assets/img/icon/baby-mom-care.svg" alt=""><span>Kidney &
-                                                    Lever</span></a></li>
-                                        <li><a class="dropdown-item" href="#"><img src="assets/img/icon/supplements.svg"
-                                                    alt=""><span>Lifestyle</span></a></li>
-                                        <li><a class="dropdown-item" href="#"><img
-                                                    src="assets/img/icon/food-nutrition.svg" alt=""><span>Gastric &
-                                                    Ulser</span></a></li>
-                                        <li><a class="dropdown-item" href="#"><img
-                                                    src="assets/img/icon/medical-equipements.svg" alt=""><span>Urinary
-                                                    Care</span></a></li>
-                                        <li><a class="dropdown-item" href="#"><img
-                                                    src="assets/img/icon/medical-supplies.svg" alt=""><span>Men &
-                                                    Women</span></a></li>
-                                        <li><a class="dropdown-item" href="#"><img src="assets/img/icon/pet-care.svg"
-                                                    alt=""><span>Dengue Prevention</span></a></li>
-                                    </ul>
-                                </li>
-
-                                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Pharmacy</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">New & Media</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
-                            </ul>
-                            <!-- nav-right -->
-                            <div class="nav-right">
-                                <a href="#" class="nav-right-link search-box-outer">
-                                    <i class="far fa-search"></i>
-                                </a>
-
-
-                                <div class="dropdown-cart">
-                                    <a href="#" class="shop-cart list-item">
-                                        <div class="list-item-info">
-                                            <a href="#" class="nav-right-link"><i
-                                                    class="far fa-shopping-bag"></i><span>0</span></a>
-                                            <!-- <h6>Tk. 00.00</h6>
-                                                    <h6>My Cart</h6> -->
-                                        </div>
-                                    </a>
-                                    <div class="dropdown-cart-menu">
-                                        <div class="dropdown-cart-header">
-                                            <span>00 Items</span>
-                                            <a href="#">View Cart</a>
-                                        </div>
-                                        <ul class="dropdown-cart-list">
-                                            <!-- <li>
-                                                        <div class="dropdown-cart-item">
-                                                            <div class="cart-img">
-                                                                <a href="#"><img src="assets/img/product/01.png" alt="#"></a>
-                                                            </div>
-                                                            <div class="cart-info">
-                                                                <h4><a href="#">Sample Homeo Medicine</a></h4>
-                                                                <p class="cart-qty">1x - <span
-                                                                        class="cart-amount">Tk. 00.00</span></p>
-                                                            </div>
-                                                            <a href="#" class="cart-remove" title="Remove this item"><i
-                                                                    class="far fa-times-circle"></i></a>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="dropdown-cart-item">
-                                                            <div class="cart-img">
-                                                                <a href="#"><img src="assets/img/product/02.png" alt="#"></a>
-                                                            </div>
-                                                            <div class="cart-info">
-                                                                <h4><a href="#">Sample Homeo Medicine</a></h4>
-                                                                <p class="cart-qty">1x - <span
-                                                                        class="cart-amount">Tk. 00.00</span></p>
-                                                            </div>
-                                                            <a href="#" class="cart-remove" title="Remove this item"><i
-                                                                    class="far fa-times-circle"></i></a>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="dropdown-cart-item">
-                                                            <div class="cart-img">
-                                                                <a href="#"><img src="assets/img/product/03.png" alt="#"></a>
-                                                            </div>
-                                                            <div class="cart-info">
-                                                                <h4><a href="#">Sample Homeo Medicine</a></h4>
-                                                                <p class="cart-qty">1x - <span
-                                                                        class="cart-amount">Tk. 330.00</span></p>
-                                                            </div>
-                                                            <a href="#" class="cart-remove" title="Remove this item"><i
-                                                                    class="far fa-times-circle"></i></a>
-                                                        </div>
-                                                    </li> -->
-                                        </ul>
-                                        <div class="dropdown-cart-bottom">
-                                            <div class="dropdown-cart-total">
-                                                <span>Total</span>
-                                                <span class="total-amount">Tk. 00.00</span>
-                                            </div>
-                                            <a href="shop-checkout-complete.html" class="theme-btn">Checkout</a>
-                                        </div>
-                                    </div>
+                        <div class="offcanvas-body d-flex justify-content-center align-items-center">
+                        </div>
+                    </div>
+                    <div class="nav-right">
+                        <div class="dropdown-cart">
+                            <a href="shop-cart.html" class="theme-btn"><span class="d-none d-lg-inline">View Cart
+                                </span><span class="far fa-shopping-bag"></span></a>
+                            <div class="dropdown-cart-menu">
+                                <div class="dropdown-cart-header">
+                                    <span>00 Items</span>
+                                    <a href="#">View Cart</a>
                                 </div>
-
+                                <ul class="dropdown-cart-list">
+                                    <!-- <li>
+                                                <div class="dropdown-cart-item">
+                                                    <div class="cart-img">
+                                                        <a href="#"><img src="assets/img/product/01.png" alt="#"></a>
+                                                    </div>
+                                                    <div class="cart-info">
+                                                        <h4><a href="#">Sample Homeo Medicine</a></h4>
+                                                        <p class="cart-qty">1x - <span
+                                                                class="cart-amount">Tk. 00.00</span></p>
+                                                    </div>
+                                                    <a href="#" class="cart-remove" title="Remove this item"><i
+                                                            class="far fa-times-circle"></i></a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="dropdown-cart-item">
+                                                    <div class="cart-img">
+                                                        <a href="#"><img src="assets/img/product/02.png" alt="#"></a>
+                                                    </div>
+                                                    <div class="cart-info">
+                                                        <h4><a href="#">Sample Homeo Medicine</a></h4>
+                                                        <p class="cart-qty">1x - <span
+                                                                class="cart-amount">Tk. 00.00</span></p>
+                                                    </div>
+                                                    <a href="#" class="cart-remove" title="Remove this item"><i
+                                                            class="far fa-times-circle"></i></a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="dropdown-cart-item">
+                                                    <div class="cart-img">
+                                                        <a href="#"><img src="assets/img/product/03.png" alt="#"></a>
+                                                    </div>
+                                                    <div class="cart-info">
+                                                        <h4><a href="#">Sample Homeo Medicine</a></h4>
+                                                        <p class="cart-qty">1x - <span
+                                                                class="cart-amount">Tk. 330.00</span></p>
+                                                    </div>
+                                                    <a href="#" class="cart-remove" title="Remove this item"><i
+                                                            class="far fa-times-circle"></i></a>
+                                                </div>
+                                            </li> -->
+                                </ul>
+                                <div class="dropdown-cart-bottom">
+                                    <div class="dropdown-cart-total">
+                                        <span>Total</span>
+                                        <span class="total-amount">Tk. 00.00</span>
+                                    </div>
+                                    <a href="shop-checkout-complete.html" class="theme-btn">Checkout</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -315,7 +224,7 @@
 
 
     <!-- popup search -->
-    <div class="search-popup">
+    <!-- <div class="search-popup">
         <button class="close-search"><span class="far fa-times"></span></button>
         <form action="#">
             <div class="form-group">
@@ -323,7 +232,7 @@
                 <button type="submit"><i class="far fa-search"></i></button>
             </div>
         </form>
-    </div>
+    </div> -->
     <!-- popup search end -->
 
 
@@ -338,8 +247,9 @@
                             <div class="hero-content">
                                 <h6 class="hero-sub-title" data-animation="fadeInUp" data-delay="1s">First time in
                                     country</h6>
-                                <h1 class="hero-title" data-animation="fadeInRight" data-delay="1s">We Provide Medicine
-                                    And <span>Best Health</span> Care For Your Family in Bangladesh</h1>
+                                <h1 class="hero-title" data-animation="fadeInRight" data-delay="1s">GM Homeo Hall Ensure
+                                    <span>Best Health</span> Care For Your Family in Bangladesh
+                                </h1>
                                 <p data-animation="fadeInLeft" data-delay=".75s">
                                     GM Homeo is the Leading Homeopathic Medicine Store in Bangladesh.
                                     A wide range of homeopathic medicines are available in here with the service of best
@@ -374,14 +284,14 @@
 
 
         <!-- search-product Section Start Here -->
-        <div class="search-product">
+        <!--<div class="search-product">
             <div class="container">
-                <div class="col-lg-12 col-xl-9">
+                <div class="col-lg-12 col-xl-12">
                     <div class="search-form">
-                        <h5>Search Medicine Here</h5>
+                        <h5>Search Your Desire Medicine Here!</h5>
                         <form action="#">
                             <div class="row">
-                                <div class="col-md-6 col-lg-3">
+                                <!-- <div class="col-md-6 col-lg-3">
                                     <div class="form-group">
                                         <select class="select" name="category">
                                             <option value="">Select Category</option>
@@ -411,7 +321,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-md-6 col-lg-4">
+                                <div class="col-md-10 col-lg-10">
                                     <div class="form-group">
                                         <input type="text" class="form-control" name="key" placeholder="Medicine Name">
                                     </div>
@@ -425,7 +335,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
         <!-- search-product Section End Here -->
 
         <!-- Category Section Start Here -->
